@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Convergence Explorer · InnovateED 2026</title>
+  <meta name="description" content="Same question, seven doors: how AI research tools converge and diverge. Companion site for the InnovateED workshop, Lane Medical Library, Stanford Medicine." />
+  <meta name="theme-color" content="#8C1515" />
+  <script>
+    document.documentElement.classList.add('js');
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
+  </script>
+  <script type="module" crossorigin src="./assets/index-BT5nxqph.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/convmap-CLxXDb4k.js">
+  <link rel="stylesheet" crossorigin href="./assets/convmap-B_BqOWAv.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-D_hRgCGZ.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div id="demo-banner"></div>
+
+  <header class="brandbar">
+    <div class="wrap">
+      <img id="logo" alt="Stanford Medicine, School of Medicine, Lane Medical Library" width="704" height="165" />
+      <a class="origins-link" id="origins-link" href="arc-origins/" hidden>How we built the arc →</a>
+      <div class="meta"><b>InnovateED 2026</b><br />Using AI to Enhance Your Research Workflow · 7 October 2026</div>
+    </div>
+  </header>
+
+  <section class="site-hero" id="s0" data-stop aria-labelledby="hero-title">
+    <canvas id="particles" aria-hidden="true"></canvas>
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Lane Medical Library · InnovateED 2026</p>
+        <h1 id="hero-title">Convergence Explorer</h1>
+        <p class="sub">Same question, seven doors: what AI research tools agree on, where they part ways, and what that means for your judgment.</p>
+        <p class="meta" id="hero-meta"></p>
+        <div class="cta">
+          <a class="btn" href="#s2">Pick a question</a>
+          <a class="btn ghost" href="#s6">Jump to the map</a>
+        </div>
+      </div>
+      <div class="qr-tile" id="hero-qr"></div>
+    </div>
+  </section>
+
+  <main id="main">
+    <section class="block primer-block" id="s1a" data-stop aria-labelledby="s1a-title">
+      <div class="wrap">
+        <p class="eyebrow rv">Before the arc</p>
+        <h2 id="s1a-title" class="rv">How to read a phase</h2>
+        <p class="lede rv">Every phase of research can be described the same five ways. Together they say what to hand the AI, what to keep, and what to watch for.</p>
+        <div id="primer"></div>
+      </div>
+    </section>
+
+    <section class="block" id="s1" data-stop aria-labelledby="s1-title">
+      <div class="wrap">
+        <p class="eyebrow rv">The research arc</p>
+        <h2 id="s1-title" class="rv">Eight phases, four you'll practice today</h2>
+        <p class="lede rv">Color shows how much the typical AI move in each phase displaces your own reasoning. Select a phase to see its five dimensions.</p>
+        <div id="arc"></div>
+      </div>
+    </section>
+
+    <nav class="picker-bar" aria-label="Question picker">
+      <div class="wrap"><span class="label">Question</span><div class="picker-chips" id="picker" role="toolbar" aria-label="Choose a question"></div></div>
+    </nav>
+
+    <section class="block" id="s2" data-stop aria-labelledby="s2-title">
+      <div class="wrap">
+        <p class="eyebrow rv">The question</p>
+        <h2 id="s2-title" class="visually-hidden">Selected question and prediction</h2>
+        <div id="qdetail"></div>
+      </div>
+    </section>
+
+    <div class="divider cool" id="d3" data-stop>
+      <div class="shape-a"></div><div class="shape-b"></div>
+      <div class="wrap"><span class="step">Discover &amp; Screen</span><h2>Same question, seven doors</h2>
+        <p>Every endpoint received the identical question, word for word. What each one did with it is the first lesson.</p></div>
+    </div>
+    <section class="block" id="s3" data-stop aria-labelledby="s3-title">
+      <div class="wrap">
+        <h2 id="s3-title" class="visually-hidden">Retrieval endpoints</h2>
+        <div id="doors"></div>
+        <div id="m2" data-stop></div>
+      </div>
+    </section>
+
+    <div class="divider warm" id="d4" data-stop>
+      <div class="shape-a"></div><div class="shape-b"></div>
+      <div class="wrap"><span class="step">Synthesize</span><h2>Generate first, then compare</h2>
+        <p>The human synthesis was written before any AI output existed. Read it, then reveal what the machines wrote from the same brief.</p></div>
+    </div>
+    <section class="block" id="s4" data-stop aria-labelledby="s4-title">
+      <div class="wrap">
+        <h2 id="s4-title" class="visually-hidden">Syntheses</h2>
+        <div id="synth"></div>
+      </div>
+    </section>
+
+    <div class="divider plum" id="d5" data-stop>
+      <div class="shape-a"></div><div class="shape-b"></div>
+      <div class="wrap"><span class="step">Cite &amp; Manage</span><h2>The same connector, two displacement levels</h2>
+        <p>Fetching a passage you then read leaves the judgment with you. Asking for a summary of your library hands it over.</p></div>
+    </div>
+    <section class="block" id="s5" data-stop aria-labelledby="s5-title">
+      <div class="wrap">
+        <h2 id="s5-title" class="visually-hidden">Citation traceability</h2>
+        <div id="cite"></div>
+      </div>
+    </section>
+
+    <div class="divider mixed" id="d6" data-stop>
+      <div class="shape-a"></div><div class="shape-b"></div>
+      <div class="wrap"><span class="step">The Convergence Map</span><h2>Do the doors lead to the same place?</h2>
+        <p>Each question is one dot. The hollow dot is the prediction written before any data existed; the solid dot is what happened.</p></div>
+    </div>
+    <section class="block" id="s6" data-stop aria-labelledby="s6-title">
+      <div class="wrap">
+        <h2 id="s6-title" class="visually-hidden">Convergence Map</h2>
+        <div id="map"></div>
+      </div>
+    </section>
+
+    <div class="divider warm" id="d7" data-stop>
+      <div class="shape-a"></div><div class="shape-b"></div>
+      <div class="wrap"><span class="step">Safeguards</span><h2>Name the risk, then design around it</h2>
+        <p>Eight terms for what can go wrong, each with the line to use in the room and how strong the evidence is.</p></div>
+    </div>
+    <section class="block" id="s7" data-stop aria-labelledby="s7-title">
+      <div class="wrap">
+        <h2 id="s7-title" class="visually-hidden">Safeguards</h2>
+        <div id="safeguards"></div>
+      </div>
+    </section>
+
+    <div class="divider stone" id="d8" data-stop>
+      <div class="shape-a"></div><div class="shape-b"></div>
+      <div class="wrap"><span class="step">Take it with you</span><h2>One page, one week, one habit</h2>
+        <p>Download the handout, take the one-week retrieval quiz, and write your prediction before you open the next tool.</p></div>
+    </div>
+    <section class="block" id="s8" data-stop aria-labelledby="s8-title">
+      <div class="wrap">
+        <h2 id="s8-title" class="visually-hidden">Exit</h2>
+        <div id="exit"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-foot">
+    <div class="wrap">
+      <img id="logo-foot" alt="Stanford Medicine, School of Medicine, Lane Medical Library" width="704" height="165" />
+      <span id="foot-text">Lane Medical Library · Stanford Medicine · InnovateED 2026</span>
+    </div>
+  </footer>
+</body>
+</html>
