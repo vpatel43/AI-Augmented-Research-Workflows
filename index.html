@@ -10,10 +10,10 @@
     document.documentElement.classList.add('js');
     if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
   </script>
-  <script type="module" crossorigin src="./assets/index-D2yFmQj4.js"></script>
+  <script type="module" crossorigin src="./assets/index-DJqY8V0l.js"></script>
   <link rel="modulepreload" crossorigin href="./assets/store-DGnQELeA.js">
   <link rel="stylesheet" crossorigin href="./assets/store-6I3Hm6ht.css">
-  <link rel="stylesheet" crossorigin href="./assets/index-B3uhsPaa.css">
+  <link rel="stylesheet" crossorigin href="./assets/index-HodrMPIW.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -83,6 +83,8 @@
       </div>
     </section>
 
+    <!-- the picker sticks only within this wrapper: the sections it drives (The question through Synthesize) -->
+    <div class="picker-scope">
     <nav class="picker-bar" aria-label="Question picker">
       <div class="wrap"><span class="label">Question</span><div class="picker-chips" id="picker" role="toolbar" aria-label="Choose a question"></div></div>
     </nav>
@@ -120,6 +122,7 @@
       </div>
     </section>
 
+    </div>
     <div class="divider plum" id="d5" data-stop>
       <div class="shape-a"></div><div class="shape-b"></div>
       <div class="wrap"><span class="step">Cite &amp; Manage</span><h2>The same connector, two displacement levels</h2>
