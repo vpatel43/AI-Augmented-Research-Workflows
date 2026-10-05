@@ -10,8 +10,8 @@
     document.documentElement.classList.add('js');
     if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
   </script>
-  <script type="module" crossorigin src="./assets/index-C-NJy6rO.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-fNVhU8et.css">
+  <script type="module" crossorigin src="./assets/index-Dj6Y9La6.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-4taTcIca.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -30,6 +30,7 @@
         <span class="nav-toggle-label">Sections</span><span class="nav-current" aria-hidden="true"></span><span class="nav-caret" aria-hidden="true"></span>
       </button>
       <ol class="nav-list" id="nav-list">
+        <li><a href="#moves" data-sec="moves">Start</a></li>
         <li><a href="#s1" data-sec="s1">Disambiguation</a></li>
         <li><a href="#d2" data-sec="s2">Derivation</a></li>
         <li><a href="#d3" data-sec="s3">Researching research</a></li>
@@ -49,13 +50,21 @@
         <p class="eyebrow">Opening segment · InnovateED 2026</p>
         <h1 id="hero-title">What do you mean, <em>research</em>?</h1>
         <p class="sub">Same word, different routes. How we built an eight-phase map of research by researching research.</p>
-        <ol class="opening-moves" id="opening-moves"></ol>
+        <div class="opening-moves" id="opening-moves"></div>
       </div>
       <div class="qr-tile" id="hero-qr"></div>
     </div>
   </section>
 
   <main id="main">
+    <section class="block moves-block" id="moves" data-beat="moves" aria-labelledby="moves-title">
+      <div class="wrap">
+        <p class="eyebrow rv">Opening moves</p>
+        <h2 id="moves-title" class="rv">Before we start</h2>
+        <div id="moves-body"></div>
+      </div>
+    </section>
+
     <section class="block" id="s1" data-beat="s1" aria-labelledby="s1-title">
       <div class="wrap">
         <h2 id="s1-title" class="rv">Disambiguation</h2>
