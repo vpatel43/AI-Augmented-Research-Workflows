@@ -10,8 +10,8 @@
     document.documentElement.classList.add('js');
     if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
   </script>
-  <script type="module" crossorigin src="./assets/index-BfcSB3X9.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-CqHwUbHi.css">
+  <script type="module" crossorigin src="./assets/index-BlGChQcP.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-tSrcn0tZ.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -23,8 +23,23 @@
     </div>
   </header>
 
-  <nav class="mini-nav" aria-label="Sections, drawn as the arc">
-    <div class="wrap"><div id="mini-arc"></div><span class="mini-label" id="mini-label" aria-live="polite"></span></div>
+  <nav class="site-nav" id="site-nav" aria-label="Sections of this page">
+    <div class="wrap">
+      <a class="nav-title" href="#s0">What do you mean, <em>research</em>?</a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-list">
+        <span class="nav-toggle-label">Sections</span><span class="nav-current" aria-hidden="true"></span><span class="nav-caret" aria-hidden="true"></span>
+      </button>
+      <ol class="nav-list" id="nav-list">
+        <li><a href="#s1" data-sec="s1">Disambiguation</a></li>
+        <li><a href="#d2" data-sec="s2">Derivation</a></li>
+        <li><a href="#d3" data-sec="s3">Researching research</a></li>
+        <li><a href="#d4" data-sec="s4">Self-referential loops</a></li>
+        <li><a href="#s5" data-sec="s5">Field notes</a></li>
+        <li><a href="#s6" data-sec="s6">References</a></li>
+        <li><a href="#s7" data-sec="s7">Explorer</a></li>
+      </ol>
+    </div>
+    <div class="nav-progress" aria-hidden="true"><span></span></div>
   </nav>
 
   <section class="origins-hero" id="s0" data-beat="s0" aria-labelledby="hero-title">
