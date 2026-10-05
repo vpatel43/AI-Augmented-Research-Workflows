@@ -10,8 +10,8 @@
     document.documentElement.classList.add('js');
     if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) document.documentElement.classList.add('reduced');
   </script>
-  <script type="module" crossorigin src="./assets/index-C2xRvD1Z.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-4taTcIca.css">
+  <script type="module" crossorigin src="./assets/index-DgTOSf-S.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-DQH3mmI5.css">
 </head>
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
@@ -43,7 +43,7 @@
     <div class="nav-progress" aria-hidden="true"><span></span></div>
   </nav>
 
-  <section class="origins-hero" id="s0" data-beat="s0" aria-labelledby="hero-title">
+  <section class="origins-hero" id="s0" data-slide="hero" aria-labelledby="hero-title">
     <div class="wrap">
       <div class="hero-word" aria-hidden="true"><svg id="hero-burst" class="viz"></svg></div>
       <div class="hero-copy">
@@ -57,23 +57,24 @@
   </section>
 
   <main id="main">
-    <section class="block moves-block" id="moves" data-beat="moves" aria-labelledby="moves-title">
+    <section class="block moves-block" id="moves" data-slide="moves" aria-labelledby="moves-title">
       <div class="wrap">
-        <p class="eyebrow rv">Opening moves</p>
-        <h2 id="moves-title" class="rv">Before we start</h2>
+        <p class="eyebrow rv">Before we start</p>
+        <h2 id="moves-title" class="rv">Write down one real question from your work</h2>
         <div id="moves-body"></div>
       </div>
     </section>
 
-    <section class="block" id="s1" data-beat="s1" aria-labelledby="s1-title">
+    <section class="block" id="s1" data-slide="disambiguation" aria-labelledby="s1-title">
       <div class="wrap">
         <h2 id="s1-title" class="rv">Disambiguation</h2>
         <p class="lede rv">People say "research" and mean different work. Each sense takes its own route through the same eight phases. Hover or tap a sense to see its route.</p>
+        <div class="your-question" id="your-question" aria-live="polite"></div>
         <div id="senses"></div>
       </div>
     </section>
 
-    <div class="divider origins" id="d2">
+    <div class="divider origins" id="d2" data-slide="d2">
       <div class="shape-a"></div><div class="shape-b"></div>
       <div class="wrap"><span class="step">Derivation</span><h2>How we arrived at eight phases</h2>
         <p>Four steps: pool the literatures, check what existing models cover, stress-test against industry frameworks, and take back what they do better.</p></div>
@@ -85,7 +86,7 @@
       </div>
     </section>
 
-    <div class="divider inquiry" id="d3">
+    <div class="divider inquiry" id="d3" data-slide="d3">
       <div class="shape-a"></div><div class="shape-b"></div>
       <div class="wrap"><span class="step">Researching research</span><h2>The arc, run on itself</h2>
         <p>Each turn of the spiral is a version of the arc. Each step is labeled with the phase it performed on the arc itself.</p></div>
@@ -97,19 +98,19 @@
       </div>
     </section>
 
-    <div class="divider origins" id="d4">
+    <div class="divider origins" id="d4" data-slide="d4">
       <div class="shape-a"></div><div class="shape-b"></div>
       <div class="wrap"><span class="step">Self-referential loops</span><h2>Research changes its own inputs</h2>
         <p>Its methods, its tools, its researcher, and sometimes its own subject. Some of those loops correct themselves. Some only reinforce.</p></div>
     </div>
-    <section class="block" id="s4" data-beat="s4" aria-labelledby="s4-title">
+    <section class="block" id="s4" data-slide="loops" aria-labelledby="s4-title">
       <div class="wrap">
         <h2 id="s4-title" class="visually-hidden">Self-referential loops</h2>
         <div id="loops"></div>
       </div>
     </section>
 
-    <section class="block alt" id="s5" aria-labelledby="s5-title">
+    <section class="block alt" id="s5" data-slide="fieldnotes" aria-labelledby="s5-title">
       <div class="wrap">
         <p class="eyebrow rv">Field notes before you use the tools</p>
         <h2 id="s5-title" class="rv">What to know before the Explorer</h2>
@@ -117,17 +118,22 @@
       </div>
     </section>
 
-    <section class="block" id="s6" aria-labelledby="s6-title">
+    <section class="block" id="s6" data-slide="references" aria-labelledby="s6-title">
       <div class="wrap">
         <h2 id="s6-title" class="rv">References</h2>
         <div id="references"></div>
       </div>
     </section>
 
-    <section class="block bridge-block" id="s7" data-beat="s7" aria-labelledby="s7-title">
+    <section class="block bridge-block" id="s7" aria-labelledby="s7-title">
       <div class="wrap">
+        <div class="habits-block" id="habits" data-slide="habits">
+          <p class="eyebrow rv">Before you open the Explorer</p>
+          <h2 id="habits-title" class="rv">Think of the last time you used AI on a research question. Which of these did you actually do?</h2>
+          <div id="habits-body"></div>
+        </div>
         <h2 id="s7-title" class="visually-hidden">Bridge to the Convergence Explorer</h2>
-        <div id="bridge"></div>
+        <div id="bridge" data-slide="bridge"></div>
       </div>
     </section>
   </main>
